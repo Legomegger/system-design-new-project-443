@@ -63,8 +63,6 @@ scenarios: (100.00%) 4 scenarios, 480 max VUs, 45s max duration (incl. graceful 
 
 ## Вывод
 
-TODO: что упёрлось в предел и по какому признаку это видно.
-
 taxi=# EXPLAIN (ANALYZE, BUFFERS)
 taxi-# SELECT * FROM trips where passenger_id = 1;
                                                         QUERY PLAN
