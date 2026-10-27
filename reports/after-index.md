@@ -64,5 +64,4 @@ scenarios: (100.00%) 4 scenarios, 480 max VUs, 45s max duration (incl. graceful 
 
 
 ## Вывод
-
-TODO: что упёрлось в предел и по какому признаку это видно.
+С составным индексом passenger_id, created_at поиск истории ускорился. Решено оставить индекс
